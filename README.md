@@ -4,7 +4,9 @@ Mara Graziani, Vincent Andrearczyk and Henning Muller
 paper still under review.
 
 All the channel visualizations and class activations maps can be 
-inspected in the folder interpretability_results/
+inspected in the folder interpretability_results/.
+
+Particularly, the visualization patchworks are useful to inspect all the images at once.  
 
 # How are the features learned by ImageNet pretrained CNNs reused in histopathology tasks? 
 
@@ -19,17 +21,30 @@ The code for running the experiments is grouped in the following notebooks:
 - visualize_channels_CNN.ipynb: imports the network graph and weights after finetuning and uses the lucid4keras[1] wrapper to generate the visualizations. Results in interpretability_results/inceptionv3_finetuned. 
 This code was also applied to visualize the channel activations of InceptionV3 pretrained on ImageNet. See details in the notebook.
 
+<p align="center">
+    <img src="interpretability_results/patchwork_finetuned_iv3.png" width=700px>
+</p>
+
+
 - lucid_iv3.ipynb: loads the lucid[2] toolbox and the InceptionV3 from the modelzoo to visualize intermediate channel activations of the pretrained network (results in interpretability_results/lucid_inceptionv3). The same results can be obtained by using the ImageNet pretrained parameters in visualize_channels_CNN (see results in interpretability_results/inceptionv3) 
 
+<p align="center">
+    <img src="interpretability_results/patchwork_lucid_iv3.png" width=700px>
+</p>
+
+
 - gradcam_plus.ipynb: visualizes the gradCAM and gradCAM++ heatmaps overlayed on the input images. Results in interpretability_results/gradcam and interpretability_results/gradcamplus
+
+<p align="center">
+    <img src="interpretability_results/patchwork_gradcamplus.png" width=700px>
+</p>
+
 
 - RCVs_analysis.ipynb: code for the last experiment on the regression of concept measures of texture in the network layers. Results in interpretability_results/rcvs
 
 # Datasets and Models
 
-The dataset used for running the experiments can be downloaded at: 
-
-The pretrained network weights are available at: 
+To get the same dataset and model parameters used for the experiments contact me at mara.graziani@hevs.ch.
 
 # Installation and Requirements 
 The environment needed to run the experiments must include Tensorflow 1.8.0 and Keras 2.1.6.
