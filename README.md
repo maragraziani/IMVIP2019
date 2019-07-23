@@ -3,6 +3,9 @@ Mara Graziani, Vincent Andrearczyk and Henning Muller
 
 paper still under review.
 
+All the channel visualizations and class activations maps can be 
+inspected in the folder interpretability_results/
+
 # How are the features learned by ImageNet pretrained CNNs reused in histopathology tasks? 
 
 Transfer learning from networks pretrained on large scale datasets of natural images, such as ImageNet, is a diffuse practice in the medical imaging domain. The differences between medical images and ImageNet are, however, considerable. In histopathology images the variety of color, textures, backgrounds and objects is substantially shrunk to repetitive patterns (nuclei) as opposed to the wide diversity of natural images. 
