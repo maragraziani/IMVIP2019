@@ -1,7 +1,5 @@
-# Visualizing and interpreting feature reuse of pretrained CNNs for histopathology (submitted to IMVIP2019)
+# Visualizing and interpreting feature reuse of pretrained CNNs for histopathology (IMVIP2019)
 Mara Graziani, Vincent Andrearczyk and Henning Muller
-
-paper still under review.
 
 All the channel visualizations and class activations maps can be 
 inspected in the folder interpretability_results/.
