@@ -16,7 +16,7 @@ configparser==3.5.0
 cycler==0.10.0
 Cython==0.25.2
 decorator==4.2.1
-Django==1.11.22
+Django==1.11.28
 entrypoints==0.2.3
 enum34==1.1.6
 filelock==3.0.12
