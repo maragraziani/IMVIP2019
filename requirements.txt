@@ -88,7 +88,7 @@ pstat==0.0.1
 psutil==3.4.2
 ptyprocess==0.5
 pycurl==7.43.0
-Pygments==2.2.0
+Pygments==2.7.4
 PyOpenGL==3.1.0
 pyparsing==2.2.0
 Pyste==0.9.10
